@@ -28,9 +28,18 @@ html, body{
 
 .link{
     list-style: none;
+}
+
+.link a:hover{
+    color: #fff;
+}
+
+.link a{
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
+
 
 .main-section{
     display: flex;
@@ -64,19 +73,26 @@ html, body{
     color: #f9faf8;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.hero > button:hover{
+    background-color: #4892ff;
 }
 
 .img-container{
-    background-color: #667;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f9faf8;
+    max-height: 300px;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 section.info{
     text-align: center;
-    padding: 12px 128px 128px;
+    padding: 12px 128px 96px;
 }
 
 .info-title{
@@ -102,6 +118,12 @@ section.info{
     border-radius: 10px;
     width: 100%;
     height: 160px;
+}
+
+.info-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .info-txt{
@@ -174,7 +196,11 @@ section.sign-up{
     color: #f9faf8;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
+}
 
+.card-right button:hover{
+    background-color: #4892ff;
 }
 
 footer{
